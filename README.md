@@ -1,14 +1,18 @@
 # Projeto Integrador - Modelo
 
-Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
+Início de projeto 27/02/2023.
 
-Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
+Nossa proposta é fazer um site de revenda de carros, na qual o funcionário administra o estoque e documentos da venda do veículo.
+
+Situação Problema:
+
+Alunos: Murilo Watanabi(https://github.com/MuriloWatanabe), Phelipi Mouser (https://github.com/PhelipiM) e William Nunes (https://github.com/Nunes-Willi)
 
 Links do projeto:
 
--   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
--   [Backend](github.com/marcoandre/pi-backend)
--   [Frontend](github.com/marcoandre/pi-frontend)
+-   [Documentação (esse documento)](https://github.com/MuriloWatanabe/pi_modelo)
+-   [Backend (Não possui)]()
+-   [Frontend (Não possui)]()
 
 # Como usar esse modelo para o Projeto Integrador
 
