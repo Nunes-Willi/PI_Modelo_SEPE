@@ -10,9 +10,7 @@ Alunos: Murilo Watanabi(https://github.com/MuriloWatanabe), Phelipi Mouser (http
 
 Links do projeto:
 
--   [Documentação (esse documento)](https://github.com/MuriloWatanabe/pi_modelo)
--   [Backend (Não possui)]()
--   [Frontend (Não possui)]()
+-   [Link do projeto](https://github.com/MuriloWatanabe/pi_modelo)
 
 # Como usar esse modelo para o Projeto Integrador
 
