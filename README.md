@@ -2,23 +2,20 @@
 
 Início de projeto 27/02/2023.
 
-Nossa proposta é fazer um site de revenda de carros, na qual o funcionário administra o estoque e documentos da venda do veículo.
-
-Situação Problema:
-
-Alunos: Murilo Watanabi(https://github.com/MuriloWatanabe), Phelipi Mouser (https://github.com/PhelipiM) e William Nunes (https://github.com/Nunes-Willi)
+Alunos: Murilo Watanabe(https://github.com/MuriloWatanabe), Phelipi Moser (https://github.com/PhelipiM) e William Nunes (https://github.com/Nunes-Willi)
 
 Links do projeto:
 
 -   [Link do projeto](https://github.com/MuriloWatanabe/pi_modelo)
 
-# Como usar esse modelo para o Projeto Integrador
+<!-- # Como usar esse modelo para o Projeto Integrador
 
 1. Faça um fork desse repositório para a sua conta do GitHub.
 2. Clone o repositório para o seu computador.
 3. Abra o arquivo README.md no seu editor de texto favorito (recomendamos o [Visual Studio Code](https://code.visualstudio.com/)).
 4. Tenha instalada a extensão [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) no seu editor de texto.
 5. Edite o arquivo README.md com as informações do seu projeto.
+   
 
 # Desenvolvimento
 
@@ -52,11 +49,11 @@ de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema 
 
 Sr. Sálvio, nosso cliente, fez um curso de manutenção de celulares e smartphones e decidiu abrir um negócio, onde ele é responsável pelos consertos e sua esposa Marília realiza os atendimentos aos clientes. Com sua visão empreendedora, ele sentiu a necessidade de um software que auxilie
 sua esposa nas tarefas diárias. Para isso, ele deseja um sistema que gerencie os clientes, orçamentos, serviços e retirada dos equipamentos. Sendo um negócio pequeno, é muito importante que ele consiga ter relatórios que lhe ajudem na gestão da
-empresa, como dos status dos serviços.
+empresa, como dos status dos serviços. -->
 
 # Situação Problema
 
-**Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.**
+<!-- **Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.**
 
 ![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
 
@@ -79,13 +76,12 @@ atualidade, ou seja, antes de seu novo software**, usando como base a situação
     quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a
     empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
 
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
+Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas: -->
 
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários,
-    etc);
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma
-    ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa
-    diferente que for explicar (como faria em uma redação);
+-   **Introdução**: Olá nós somos a empresa DevCar, trabalhamos com revenda de carro desde 27/02/2023.Os donos da empresa são: Murilo Watanabe, Phelipi Moser e William Nunes. E ao todo possuimos cinco funcionários: Balconista; Gerente de  Estoque; Re-vendedor; Gerente de Marketing; Técnico Mecânico.
+
+-   **Situação-problema**: <!--Aborde em detalhes como a empresa funciona, procurando seguir umaordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);--> A empresa funciona da seguinte forma, um cliente vem até a loja física procurar um veículo, o balconista ô recepiciona anotando todas as prioridades do carro pedido pelo cliente, ao terminar o processo de anotação é enviado um orçamento/pedido para o gerente de estoque fazer uma análise de crédito através do sistema de revenda, após a finalização da análise é enviado uma autorização de revenda ao revendedor, que avisará o anfitrião da conclusão do orçamento/pedido, iniciando assim a parte de documentação realizada pelo revendedor e o agendamento e autorização da revenda do veículo.
+
 -   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia
     ajudar a resolvê-los.
 
