@@ -1,4 +1,4 @@
-# Projeto Integrador - Modelo
+o# Projeto Integrador - Modelo
 
 Início de projeto 27/02/2023.
 
@@ -78,17 +78,18 @@ atualidade, ou seja, antes de seu novo software**, usando como base a situação
 
 Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas: -->
 
--   **Introdução**: Olá nós somos a empresa DevCar, trabalhamos com revenda de carro desde 27/02/2023.Os donos da empresa são: Murilo Watanabe, Phelipi Moser e William Nunes. E ao todo possuimos cinco funcionários: Balconista; Gerente de  Estoque; Re-vendedor; Gerente de Marketing; Técnico Mecânico.
-
--   **Situação-problema**: <!--Aborde em detalhes como a empresa funciona, procurando seguir umaordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);--> A empresa funciona da seguinte forma, um cliente vem até a loja física procurar um veículo, o balconista ô recepiciona anotando todas as prioridades do carro pedido pelo cliente, ao terminar o processo de anotação é enviado um orçamento/pedido para o gerente de estoque fazer uma análise de crédito através do sistema de revenda, após a finalização da análise é enviado uma autorização de revenda ao revendedor, que avisará o anfitrião da conclusão do orçamento/pedido, iniciando assim a parte de documentação realizada pelo revendedor e o agendamento e autorização da revenda do veículo.
-   **Conclusão**: <!--tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.;-->
+-   **Introdução**: Olá nós somos a empresa DevCar, trabalhamos com revenda de carro desde 27/02/2023.Os donos da empresa são: Murilo Watanabe, Phelipi Moser e William Nunes. E ao todo possuimos cinco funcionários: Atendente(Vendedor); Gerente de  Estoque.
+  
+-   **Situação-problema**: <!--Aborde em detalhes como a empresa funciona, procurando seguir umaordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);--> A empresa funciona da seguinte forma, um cliente vem até a loja física procurar um veículo, o atendente ô recepiciona anotando todas as caracteristicas do carro desejado pelo cliente através de um bloco de orçamento, ao terminar o processo de anotação é enviado um orçamento/pedido para o gerente de estoque fazer uma análise de crédito através do sistema de revenda, após a finalização da análise é enviado uma autorização de revenda ao vendedor, que avisará o anfitrião da conclusão do orçamento/pedido, iniciando assim a parte de documentação realizada pelo vendedor e o agendamento e autorização da revenda do veículo.
+  
+   **Conclusão**: <!--tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.;--> A ideia do software é de sistematizar todo o processo de gerenciação de relatórios, dada as informações do cliente e do estoque, o foco do software é de facilitar as informações dos carros que entram e saiem do estoque.
 
 # Descrição da proposta
 
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do
+<!-- Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do
 desejado e permita sua continuidade.
 
-**Alguns pontos importantes a se destacar são:**
+**Alguns pontos importantes a se destacar são:** -->
 
   **Qual o foco de ação do software**
   
@@ -96,15 +97,19 @@ desejado e permita sua continuidade.
 
 **Os níveis de usuário do sistema**. 
    
-   A Prioridade seja que o acesso em geral apenas o gestor tenha, mas alguns funcionários tambem poderão se utilizar ao sistema.  <!--Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos diferentes, etc.-->
+   A Prioridade seja que o acesso em geral apenas que o atendente ò tenha, mas alguns funcionários também poderão se utilizar ao sistema.  <!--Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos diferentes, etc.-->
 
 **O que poderá ser feito no software**.
 
-Apenas o principal, sem pensar em
-    telas ou detalhes específicos, pois isso será feito em outro momento.
+Orçamento,ánalise de compra e venda, e gerenciamento de informações do cliente.
+<!-- Apenas o principal, sem pensar em
+    telas ou detalhes específicos, pois isso será feito em outro momento. -->
 
- **Se houver mais de um nível de usuário**, ressaltar as diferenças entre
+ **Se houver mais de um nível de usuário**
+
+ As principais diferenças entre os niveis de atendente e gerente de estoque seria a manipulação de informações entre cliente e veículo, por exemplo o atendente lidaria com o orçamento e pesquisa de dados atendidos pelos clientes,e o gerente lidaria com gerenciamento de dados sobre os veículos(entrada,saída,data,características,valor e etc..)
+ <!-- ressaltar as diferenças entre
         eles na descrição da proposta.
 
 Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
-precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
+miprecisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo. -->
