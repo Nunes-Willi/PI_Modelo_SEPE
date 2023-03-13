@@ -81,9 +81,7 @@ Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa s
 -   **Introdução**: Olá nós somos a empresa DevCar, trabalhamos com revenda de carro desde 27/02/2023.Os donos da empresa são: Murilo Watanabe, Phelipi Moser e William Nunes. E ao todo possuimos cinco funcionários: Balconista; Gerente de  Estoque; Re-vendedor; Gerente de Marketing; Técnico Mecânico.
 
 -   **Situação-problema**: <!--Aborde em detalhes como a empresa funciona, procurando seguir umaordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);--> A empresa funciona da seguinte forma, um cliente vem até a loja física procurar um veículo, o balconista ô recepiciona anotando todas as prioridades do carro pedido pelo cliente, ao terminar o processo de anotação é enviado um orçamento/pedido para o gerente de estoque fazer uma análise de crédito através do sistema de revenda, após a finalização da análise é enviado uma autorização de revenda ao revendedor, que avisará o anfitrião da conclusão do orçamento/pedido, iniciando assim a parte de documentação realizada pelo revendedor e o agendamento e autorização da revenda do veículo.
-
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia
-    ajudar a resolvê-los.
+   **Conclusão**: <!--tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.;-->
 
 # Descrição da proposta
 
@@ -92,12 +90,20 @@ desejado e permita sua continuidade.
 
 **Alguns pontos importantes a se destacar são:**
 
--   **Qual o foco de ação do software** relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails.
--   **Os níveis de usuário do sistema**. Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos
-    diferentes, etc.
--   **O que poderá ser feito no software**.Apenas o principal, sem pensar em
+  **Qual o foco de ação do software**
+  
+  Foco principal do software e de procurar e organizar a pesquisa e orçamentos dos carros para os clintes.  <!--relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails. -->
+
+**Os níveis de usuário do sistema**. 
+   
+   A Prioridade seja que o acesso em geral apenas o gestor tenha, mas alguns funcionários tambem poderão se utilizar ao sistema.  <!--Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos diferentes, etc.-->
+
+**O que poderá ser feito no software**.
+
+Apenas o principal, sem pensar em
     telas ou detalhes específicos, pois isso será feito em outro momento.
-    -   **Se houver mais de um nível de usuário**, ressaltar as diferenças entre
+
+ **Se houver mais de um nível de usuário**, ressaltar as diferenças entre
         eles na descrição da proposta.
 
 Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
