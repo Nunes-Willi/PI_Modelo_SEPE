@@ -113,3 +113,26 @@ Orçamento,ánalise de compra e venda, e gerenciamento de informações do clien
 
 Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
 miprecisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo. -->
+
+
+**Regras de negócio com formatação**
+
+RN001- Iniciando um pedido: Para iniciar um pedido o gerente deve pegar todos os dados do cliente e de seu veículo desejado;
+
+RN002- Verificação no estoque: Após a coleta de dados, o gerente envia para o gerenciador de estoque as especificações do veículo do cliente;
+
+RN003- Após verificação do estoque: O gerenciador do estoque vai alerta se há o produto desejado. Caso haja o produto seguir para a quarta regra, caso oposto encerrar pedido;
+
+RN004- Transferência de documetos: Após a confirmação do produto o gerente deve fazer as tranferência dos documentos do carro para o cliente;
+
+RN005- Após transferência dos documentos o atendente deve confirmar a aprovação do veículo para o cliente;
+
+<!-- RN006- Esteja presente nas redes sociais: Use as redes sociais para divulgar seus carros e manter seus clientes informados sobre novidades, promoções e eventos.
+
+RN007- Ofereça financiamento: Para atender às necessidades de todos os clientes, ofereça opções de financiamento e leasing.
+
+RN008- Invista em publicidade: Invista em publicidade em canais estratégicos, como revistas de carros, jornais locais, rádio e televisão.
+
+RN009- Ofereça serviços adicionais: Ofereça serviços adicionais, como seguro de carro, transferência de propriedade, revisões e manutenção.
+
+RN010- Atenda bem seus clientes: Treine sua equipe para atender bem seus clientes e estar sempre disponível para ajudá-los em suas necessidades. A boa reputação e o boca-a-boca são fundamentais para o sucesso de qualquer negócio. -->
