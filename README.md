@@ -136,3 +136,38 @@ RN008- Invista em publicidade: Invista em publicidade em canais estratégicos, c
 RN009- Ofereça serviços adicionais: Ofereça serviços adicionais, como seguro de carro, transferência de propriedade, revisões e manutenção.
 
 RN010- Atenda bem seus clientes: Treine sua equipe para atender bem seus clientes e estar sempre disponível para ajudá-los em suas necessidades. A boa reputação e o boca-a-boca são fundamentais para o sucesso de qualquer negócio. -->
+
+**5.4 Estrutura do requisito funcional**
+
+RF01 -Sistema de cadastro de clientes: um sistema para que os clientes se cadastrem para realizar uma compra, incluindo informações como nome completo, endereço, número de telefone, endereço de e-mail e outras informações relevantes.
+
+RF02 - erenciamento de conta do cliente: um sistema para que os clientes possam gerenciar suas contas, atualizando suas informações pessoais, informações de pagamento, histórico de pedidos e outras informações.
+
+RF03 - Autenticação do cliente: um sistema para autenticar o cliente ao fazer login em sua conta antes de realizar uma compra, para garantir a segurança das informações pessoais e de pagamento do cliente.
+
+RF04 - Carrinho de compras: um sistema para permitir que os clientes adicionem itens ao carrinho de compras, visualizem o total de sua compra e façam alterações antes de finalizar o pedido.
+
+RF05 - Processamento de pagamentos: um sistema seguro e confiável para processar os pagamentos dos clientes por meio de várias opções, como cartões de crédito, PayPal ou outros métodos de pagamento.
+
+RF06 - Confirmação de pedido: um sistema para enviar uma confirmação de pedido para o cliente, incluindo informações sobre o produto, preço total, informações de envio e estimativa de tempo de entrega.
+
+<!-- Um requisito funcional deve ser estruturado da seguinte forma:
+
+Nome do requisito funcional: descrição do requisito.
+Dados necessários: dado 1, dado 2, dado 3.
+Usuários: todos os níveis de usuário.
+
+*5.4.1 Nome do requisito funcional*
+
+R.F. 99 - Nome do requisito funcional: é o nome da função que o software terá. Sugerimos, por padronização, que tenha o prefixo R.F. (requisito funcional) seguida da numeração, para melhor identificação do requisito, acrescido do formato “Substantivo + onde será feita a ação”. Por exemplo:
+
+R.F. 01 - Registro de Funcionários
+R.F. 15 - Gerenciamento de consultas
+R.F. 04 - Débito em conta corrente
+Deixe para definir as numerações ao final, tendo em vista que mudanças podem acontecer e não é prático sempre ficar reajustando os números.
+
+*5.4.2 Descrição do requisito funcional*
+
+Descrição do requisito: local para descrever a função deste requisito.
+
+Sempre se preocupe em esclarecer dois pontos: o que o requisito faz e o motivo de sua existência. Isso é especialmente importante se a ação executada nesse requisito não for algo que já acontece naturalmente na empresa. Um exemplo é um Registro de funcionários, que talvez não exista hoje mas para o software é necessário para viabilizar uma autenticação de usuários. Outro exemplo é algo que faz sentido apenas para um software, como a própria autenticação. -->
