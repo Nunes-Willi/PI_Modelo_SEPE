@@ -86,6 +86,7 @@ Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa s
 
 # Descrição da proposta
 
+A nossa proposta de solução para a empresa é implementar um sistema integrado que automatize o processo de venda de veículos, incluindo o registro digital das características do veículo pelo atendente, análise de crédito automatizada, notificações automáticas para o vendedor, documentação digitalizada e agendamento automatizado de revendas. Essas soluções visam agilizar o processo, reduzir o uso de papel e aumentar a eficiência operacional da empresa.
 <!-- Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do
 desejado e permita sua continuidade.
 
