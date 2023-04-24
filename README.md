@@ -116,15 +116,20 @@ Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um
 miprecisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo. -->
 
 
-**Regras de negócio com formatação**
+**Regras de negócio**
+
+
+
+- Regra da entrada de dados de veiculos(quem faz e como é feito) 
+- 
 
 RN001- Iniciando um pedido: Para iniciar um pedido o gerente deve pegar todos os dados do cliente e de seu veículo desejado;
 
 RN002- Verificação no estoque: Após a coleta de dados, o gerente envia para o gerenciador de estoque as especificações do veículo do cliente;
 
-RN003- Após verificação do estoque: O gerenciador do estoque vai alerta se há o produto desejado. Caso haja o produto seguir para a quarta regra, caso oposto encerrar pedido;
+RN003- Após verificação do estoque: O gerenciador do estoque vai alertar se há o produto desejado. Caso haja o produto seguir para a quarta regra, caso oposto encerrar pedido;
 
-RN004- Transferência de documetos: Após a confirmação do produto o gerente deve fazer as tranferência dos documentos do carro para o cliente;
+RN004- Transferência de documetos: Após a confirmação do pedido o gerente deve fazer as tranferência dos documentos do carro para o cliente;
 
 RN005- Após transferência dos documentos o atendente deve confirmar a aprovação do veículo para o cliente;
 
@@ -138,19 +143,36 @@ RN009- Ofereça serviços adicionais: Ofereça serviços adicionais, como seguro
 
 RN010- Atenda bem seus clientes: Treine sua equipe para atender bem seus clientes e estar sempre disponível para ajudá-los em suas necessidades. A boa reputação e o boca-a-boca são fundamentais para o sucesso de qualquer negócio. -->
 
-**5.4 Estrutura do requisito funcional**
+**5.4 Requisitos funcionais**
 
-RF01 -Sistema de cadastro de clientes: um sistema para que os clientes se cadastrem para realizar uma compra, incluindo informações como nome completo, endereço, número de telefone, endereço de e-mail e outras informações relevantes.
+**ENTRADA**
+RF01 -Sistema de cadastro de clientes: O sistema deve permitir o cadastro de clientes com as seguintes informações: Dados necessários: nome completo, cpf, endereço, número de telefone, e-mail e outras informações relevantes.Usuários: Vendedor/Administrador
 
-RF02 - erenciamento de conta do cliente: um sistema para que os clientes possam gerenciar suas contas, atualizando suas informações pessoais, informações de pagamento, histórico de pedidos e outras informações.
+<!-- **Cadastro de veículos** -->
+RF02 - Sistema de cadastro de veículos: O sistema deve permitir o cadastro de veículos com as seguintes informações: Nome, Marca, Ano , Cor, Quilometrageme outras informações.
 
-RF03 - Autenticação do cliente: um sistema para autenticar o cliente ao fazer login em sua conta antes de realizar uma compra, para garantir a segurança das informações pessoais e de pagamento do cliente.
+RF02 - Gerenciamento de conta do cliente: um sistema para que os administradores possam gerenciar suas contas, atualizando suas informações dos clientes como dados pessoais, dados de pagamento, histórico de pedidos e outras informações.
 
-RF04 - Carrinho de compras: um sistema para permitir que os clientes adicionem itens ao carrinho de compras, visualizem o total de sua compra e façam alterações antes de finalizar o pedido.
+**PROCESSO**
 
-RF05 - Processamento de pagamentos: um sistema seguro e confiável para processar os pagamentos dos clientes por meio de várias opções, como cartões de crédito, PayPal ou outros métodos de pagamento.
+**quais tipos de funcionarios**
+
+RF03 - Autenticação do **funcionarios**: um sistema para autenticar o cliente ao fazer login em sua conta antes de realizar uma compra, para garantir a segurança das informações pessoais e de pagamento do cliente.
+
+RF04 - Venda:(**alterar para compras física**) um sistema para permitir que os clientes adicionem itens ao carrinho de compras, visualizem o total de sua compra e façam alterações antes de finalizar o pedido.
+
+RF05 - pagamentos: um sistema seguro e confiável para processar os pagamentos dos clientes por meio de várias opções, como cartões de crédito, PayPal ou outros métodos de pagamento. **tipos de pagamento**
+
+
+**tela de transferencia de documentos**
 
 RF06 - Confirmação de pedido: um sistema para enviar uma confirmação de pedido para o cliente, incluindo informações sobre o produto, preço total, informações de envio e estimativa de tempo de entrega.
+
+
+**SAÍDA**
+**relatórios??????**
+
+
 
 <!-- Um requisito funcional deve ser estruturado da seguinte forma:
 
@@ -172,3 +194,29 @@ Deixe para definir as numerações ao final, tendo em vista que mudanças podem 
 Descrição do requisito: local para descrever a função deste requisito.
 
 Sempre se preocupe em esclarecer dois pontos: o que o requisito faz e o motivo de sua existência. Isso é especialmente importante se a ação executada nesse requisito não for algo que já acontece naturalmente na empresa. Um exemplo é um Registro de funcionários, que talvez não exista hoje mas para o software é necessário para viabilizar uma autenticação de usuários. Outro exemplo é algo que faz sentido apenas para um software, como a própria autenticação. -->
+
+**6.4 Estrutura do requisito não funcional**
+
+RNF 01 - O sistema deverá rodar em qualquer navegador como Chrome, Opera, Fire Fox, Safari e Microsoft Edge
+
+<!-- R.N.F. 01 - Navegador homologado: O sistema deverá ser homologado somente para o navegador Google Chrome.
+R.N.F. 02 - Processador: É recomendado para o sistema no mínimo um processador Intel i3, similar ou superior a geração 7100 ou AMD Ryzen 3 da geração similar ou superior ao 3100, para que o servidor funcione em sua melhor performance.
+R.N.F. 03 - Memória RAM: é recomendável que o sistema possua no mínimo 2GB de Ram para melhor performance.
+R.N.F. 04 - Arquitetura: A arquitetura que será utilizada para criação do sistema será Rest.
+R.N.F. 05 - Conexão com banco de dados: Para conexão com o banco de dados, o sistema utilizará a ferramenta de MySQL Connector.
+R.N.F. 06- Banco de dados: O sistema será implementado com o banco de dados MySQL.
+R.N.F. 07 - Implementação: O sistema deverá ser desenvolvido com linguagem Java, Javascript, HTML5, CSS3 e JQuery.
+R.N.F. 08 - Segurança: Ficará a critério do responsável do estabelecimento a segurança dos acessos ao sistema, tendo consciência das pessoas que possua permissão para acesso.
+R.N.F. 09 - Ambiente de Desenvolvimento Integrado (IDE): Para criação do sistema, será utilizado Eclipse.
+R.N.F. 10 - Disponibilidade: O sistema irá atender 99% do tempo de uso, somente ocorreria problemas de cadastro, remoção, inserção ou alteração em casos de falta de rede ou energia.
+R.N.F. 11 - Legais: O sistema deve atender às exigências da LGPD (Leis Gerais da Proteção de Dados).
+Sistema de Ordem de Serviço:
+
+R.N.F. 01 - Navegadores homologados: o sistema deverá ser homologado para os navegadores Google Chrome e Mozilla Firefox.
+R.N.F. 02 - Tecnologia Front-end: Para a exibição em front-end, o software utilizará o CSS3 e o HTML5, além das bibliotecas de jQuery e Javascript.
+R.N.F. 03- Tecnologia Back-end: O software será desenvolvido pela linguagem de programação Java.
+R.N.F. 04- Interoperabilidade: O banco de dados será o Mysql, com a linguagem SQL de banco, sendo todo produzido através do mysql Workbench .
+R.N.F. 05- Forma de uso do software: O sistema por fazer parte de um ambiente interno, provavelmente será utilizado de acordo com as horas de trabalho da empresa, mas estará ativo 24 horas por dia em 7 dias por semana.
+R.N.F. 06- Desempenho: Para a utilização correta e com uma qualidade e eficiência melhor, é recomendado que se use o SO mais atualizado, com recursos de hardware equivalentes a um processador intel i3 5°Gen ou semelhante, e 8GB de memória RAM, assim como os navegadores homologados.
+R.N.F. 07- Autenticação: Para realizar o acesso ao sistema é necessário ter um usuário de autenticação criado pelo administrador, além da possibilidade de solicitar um envio de redefinição de senha.
+R.N.F. 08- Web Server: O servidor web utilizado será o Apache Tomcat, nas versões mais atualizadas. R.N.F. 08- Níveis de segurança: O software terá diferentes tipos de acesso para cada tipo de login, tendo as permissões ideais a função de cada um. -->
