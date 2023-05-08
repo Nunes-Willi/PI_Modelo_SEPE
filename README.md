@@ -122,30 +122,25 @@ miprecisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer a
 
  - Regra de negócio de entrada de dados dos veiculos 
 
-RN001-
+RN001- Entrada de veículo: quando cliente aparecer com uma venda de veículo, o atendente deve anotar todas as informações do veiculo para determinar o valor de compra.
 
-RN002-
+RN002- Pós análise: Após as anotações de todas informações do veiculo o atendente deve justificar cada detalhe e falha do veiculo para determinar o valor final de compra.
 
-RN003-
-
-RN004-
-
-RN005-
+RN003- Finalização de compra: feita a compra do veiculo o atendente deve resgitrar todos os dados do veiculo no estoque.
+   
+ - Regra de negócio de pedido e saída de dados dos veiculos 
   
- - Regra de ngócio de pedido
-  
-RN01- Iniciando o pedido: O gerente fala dos veículos que estão na loja e no estoque, para que o cliente anasalise e escolha o veículo que deseja;
+RN01- Iniciando o pedido: O atendente fala dos veículos que estão na loja e no estoque, para que o cliente anasalise e escolha o veículo que deseja;
 
 RN02- Verificação no estoque: Após a escolha, o gerente envia para o gerenciador de estoque o veículo escolhido pelo cliente;
 
 RN03- Após verificação do estoque: O gerenciador do estoque vai alertar se há o veículo desejado. Caso haja o produto seguir para a quarta regra, caso oposto encerrar pedido;
 
-RN04- Coleta de dados: Para a continuação do pedido o gerente deve pegar todos os dados do cliente e de seu veículo desejado;
+RN04- Coleta de dados: Para a continuação do pedido o gerente deve pegar todos os dados do cliente e de seu veículo desejado, após a coleta de dados confirmar o pedido;
 
 RN05- Transferência de documetos: Após a confirmação do pedido o gerente deve fazer as tranferência dos documentos do carro para o cliente;
 
 RN06- Após transferência dos documentos o atendente deve confirmar a aprovação do veículo para o cliente;
-
 
 
 <!-- RN006- Esteja presente nas redes sociais: Use as redes sociais para divulgar seus carros e manter seus clientes informados sobre novidades, promoções e eventos.
@@ -163,10 +158,9 @@ RN010- Atenda bem seus clientes: Treine sua equipe para atender bem seus cliente
 **ENTRADA**
 RF01 -Sistema de cadastro de clientes: O sistema deve permitir o cadastro de clientes com as seguintes informações: Dados necessários: nome completo, cpf, endereço, número de telefone, e-mail e outras informações relevantes.Usuários: Vendedor/Administrador
 
-<!-- **Cadastro de veículos** -->
 RF02 - Sistema de cadastro de veículos: O sistema deve permitir o cadastro de veículos com as seguintes informações: Nome, Marca, Ano , Cor, Quilometrageme outras informações.
 
-RF02 - Gerenciamento de conta do cliente: um sistema para que os administradores possam gerenciar suas contas, atualizando suas informações dos clientes como dados pessoais, dados de pagamento, histórico de pedidos e outras informações.
+RF03 - Gerenciamento de conta do cliente: um sistema para que os administradores possam gerenciar suas contas, atualizando suas informações dos clientes como dados pessoais, dados de pagamento, histórico de pedidos e outras informações.
 
 **PROCESSO**
 
@@ -186,8 +180,6 @@ RF06 - Confirmação de pedido: um sistema para enviar uma confirmação de pedi
 
 **SAÍDA**
 **relatórios??????**
-
-
 
 <!-- Um requisito funcional deve ser estruturado da seguinte forma:
 
@@ -232,6 +224,5 @@ R.N.F. 03- Tecnologia Back-end: O software será desenvolvido pela linguagem de 
 
 R.N.F. 04- Interoperabilidade: O banco de dados será o Mysql, com a linguagem SQL de banco, sendo todo produzido através do mysql Workbench .
 R.N.F. 05- Forma de uso do software: O sistema por fazer parte de um ambiente interno, provavelmente será utilizado de acordo com as horas de trabalho da empresa, mas estará ativo 24 horas por dia em 7 dias por semana.
+
 R.N.F. 06- Desempenho: Para a utilização correta e com uma qualidade e eficiência melhor, é recomendado que se use o SO mais atualizado, com recursos de hardware equivalentes a um processador intel i3 5°Gen ou semelhante, e 8GB de memória RAM, assim como os navegadores homologados.
-R.N.F. 07- Autenticação: Para realizar o acesso ao sistema é necessário ter um usuário de autenticação criado pelo administrador, além da possibilidade de solicitar um envio de redefinição de senha.
-R.N.F. 08- Web Server: O servidor web utilizado será o Apache Tomcat, nas versões mais atualizadas. R.N.F. 08- Níveis de segurança: O software terá diferentes tipos de acesso para cada tipo de login, tendo as permissões ideais a função de cada um.
