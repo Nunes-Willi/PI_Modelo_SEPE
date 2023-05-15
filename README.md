@@ -118,9 +118,7 @@ miprecisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer a
 
 **Regras de negócio**
 
-
-
- - Regra de negócio de entrada de dados dos veiculos 
+  - **Regra de negócio de entrada de dados dos veiculos**
 
 RN001- Entrada de veículo: quando cliente aparecer com uma venda de veículo, o atendente deve anotar todas as informações do veiculo para determinar o valor de compra.
 
@@ -128,7 +126,7 @@ RN002- Pós análise: Após as anotações de todas informações do veiculo o a
 
 RN003- Finalização de compra: feita a compra do veiculo o atendente deve resgitrar todos os dados do veiculo no estoque.
    
- - Regra de negócio de pedido e saída de dados dos veiculos 
+ - **Regra de negócio de pedido e saída de dados dos veiculos**
   
 RN01- Iniciando o pedido: O atendente fala dos veículos que estão na loja e no estoque, para que o cliente anasalise e escolha o veículo que deseja;
 
@@ -155,31 +153,43 @@ RN010- Atenda bem seus clientes: Treine sua equipe para atender bem seus cliente
 
 **5.4 Requisitos funcionais**
 
-**ENTRADA**
-RF01 -Sistema de cadastro de clientes: O sistema deve permitir o cadastro de clientes com as seguintes informações: Dados necessários: nome completo, cpf, endereço, número de telefone, e-mail e outras informações relevantes.Usuários: Vendedor/Administrador
+<!-- **Etrada e saída de Veículos**
+RF00 - Em caso da compra de algum veículo o sistema deve permitir o cadastro do mesmo com as seguintes informações: Marca, Modelo, Ano , Cor, Quilometrageme outras informações.
 
-RF02 - Sistema de cadastro de veículos: O sistema deve permitir o cadastro de veículos com as seguintes informações: Nome, Marca, Ano , Cor, Quilometrageme outras informações.
+RF00 - Após marcar as informações da compra do veículo o sistema deve criar um perfil para a revenda do carro e mandalo para o estoque. -->
 
-RF03 - Gerenciamento de conta do cliente: um sistema para que os administradores possam gerenciar suas contas, atualizando suas informações dos clientes como dados pessoais, dados de pagamento, histórico de pedidos e outras informações.
+- **ENTRADA**
+  
+RF00 - Sistema de cadastro de clientes: O sistema deve permitir o cadastro de clientes com as seguintes informações: Dados necessários: nome completo, cpf, endereço, número de telefone, e-mail e outras informações relevantes. Usuários: Vendedor/Administrador
 
-**PROCESSO**
+RF00 - Gerenciamento de conta do cliente: um sistema para que os administradores possam gerenciar suas contas, atualizando suas informações dos clientes como dados pessoais, dados de pagamento, histórico de pedidos e outras informações.
 
-**quais tipos de funcionarios**
+<!-- **PROCESSO** -->
 
-RF03 - Autenticação do **funcionarios**: um sistema para autenticar o cliente ao fazer login em sua conta antes de realizar uma compra, para garantir a segurança das informações pessoais e de pagamento do cliente.
+- **Quais os tipos de funcionarios**
 
-RF04 - Venda:(**alterar para compras física**) um sistema para permitir que os clientes adicionem itens ao carrinho de compras, visualizem o total de sua compra e façam alterações antes de finalizar o pedido.
+RF00 - Autenticação dos funcionários: um sistema para autenticar os funcionários diferentes, ao fazer login em sua conta antes de realizar uma venda o funcionário poderá ver os dados dos carros que o mesmo  vendeu, Essas informações serão utilizadas no relatório final do mês.
 
-RF05 - pagamentos: um sistema seguro e confiável para processar os pagamentos dos clientes por meio de várias opções, como cartões de crédito, PayPal ou outros métodos de pagamento. **tipos de pagamento**
+RF00 - Venda:
 
-
-**tela de transferencia de documentos**
-
-RF06 - Confirmação de pedido: um sistema para enviar uma confirmação de pedido para o cliente, incluindo informações sobre o produto, preço total, informações de envio e estimativa de tempo de entrega.
+RF00 - pagamentos: o sistema  para processar os pagamentos dos clientes por meio de várias opções, como cartões de crédito, PayPal, dinheiro vivo ou outros métodos de pagamento. Tendo as opções de pagar à vista ou parcelado.
 
 
-**SAÍDA**
-**relatórios??????**
+- **tela de transferencia de documentos**
+
+RF00 - Confirmação de pedido: um sistema para enviar uma confirmação de pedido para o cliente, incluindo informações sobre o produto, preço total, informações de envio e estimativa de tempo de entrega.
+
+RF00 - Pós confirmação do pedido: O sistema deverá abrir uma nova janela pedindo a transferência de documento do veículo
+
+
+- **SAÍDA**
+
+
+- **Relatórios**
+  
+RF00 - O sistema deve enviar um email para o dono/gerente da loja que informe a quantia de carros vendidos, qual foi o mais vendido, nome funciónario que vedeu e o nome do cliente que comprou, formas e tipos de pagamento, lucro e prejuízo.
+
+RF00 - O sistema deve fixar no final do relatório os funcionários que tiraram mais feriados, folgas, horas extras e atestados.
 
 <!-- Um requisito funcional deve ser estruturado da seguinte forma:
 
@@ -204,7 +214,19 @@ Sempre se preocupe em esclarecer dois pontos: o que o requisito faz e o motivo d
 
 **6.4 Estrutura do requisito não funcional**
 
-RNF 01 - Navegador homologado: O sistema deverá ser homologado somente para o navegador Google Chrome.
+RNF 01 - Sistema operacional: O sistema deverá ser usado em sistemas operacionais windows, linux.
+
+RNF 02 - Processador: É recomendado para o sistema no mínimo um processador Intel i3, similar ou superior a geração 7100, para que o servidor funcione em sua melhor performance.
+
+RNF 03 - Memória RAM: é recomendável que o sistema possua no mínimo 2GB de Ram para melhor performance.
+
+RNF 04 - Acessibilidade: O Sistema deve ser feito de forma que todos os funcionarios consigam usa-lo sem dificuldade. 
+
+RNF 05 - Segurança: Cada senha de funcionario deve ter no minimo 6 caracteres.
+
+RNF 06 - Navegadores: O sistema deve funcionar em tudos os navegadores sendo eles(Google, Firefox,Microsoft EDGE, Opera).
+
+<!-- RNF 01 - Navegador homologado: O sistema deverá ser homologado somente para o navegador Google Chrome.
 
 RNF 02 - Processador: É recomendado para o sistema no mínimo um processador Intel i3, similar ou superior a geração 7100 ou AMD Ryzen 3 da geração similar ou superior ao 3100, para que o servidor funcione em sua melhor performance.
 
@@ -216,7 +238,7 @@ RNF 05 - Conexão com banco de dados: Para conexão com o banco de dados, o sist
 
 RNF 06 - Desempenho: Para a utilização correta e com uma qualidade e eficiência melhor, é recomendado que se use o SO mais atualizado, com recursos de hardware equivalentes a um processador intel i3 5°Gen ou semelhante, e 8GB de memória RAM, assim como os navegadores homologados.
 
-<!-- Sistema de Ordem de Serviço:
+Sistema de Ordem de Serviço:
 
 RNF 01 - O sistema deverá rodar em qualquer navegador como Chrome, Opera, Fire Fox, Safari e Microsoft Edge
 
