@@ -176,11 +176,11 @@ RF00 - Venda:
 RF00 - pagamentos: o sistema  para processar os pagamentos dos clientes por meio de várias opções, como cartões de crédito, PayPal, dinheiro vivo ou outros métodos de pagamento. Tendo as opções de pagar à vista ou parcelado.
 
 
-- **tela de transferencia de documentos**
+- **tela de transferência de documentos**
 
-RF00 - Confirmação de pedido: um sistema para enviar uma confirmação de pedido para o cliente, incluindo informações sobre o produto, preço total, informações de envio e estimativa de tempo de entrega.
+RF00 - Confirmação de pedido: o sistema deve abrir uma janela para enviar uma confirmação do pedido do cliente, incluindo informações sobre o produto, preço total e informações de transferências de documentos.
 
-RF00 - Pós confirmação do pedido: O sistema deverá abrir uma nova janela pedindo a transferência de documento do veículo
+RF00 - Pós confirmação do pedido: O sistema deverá abrir uma nova janela pedindo a transferência de documento do veículo para o cliente
 
 
 - **Saída**
