@@ -108,7 +108,8 @@ Orçamento,ánalise de compra e venda, e gerenciamento de informações do clien
 
  **Se houver mais de um nível de usuário**
 
- As principais diferenças entre os niveis de atendente e gerente de estoque seria a manipulação de informações entre cliente e veículo, por exemplo o atendente lidaria com o orçamento e pesquisa de dados atendidos pelos clientes,e o gerente lidaria com gerenciamento de dados sobre os veículos(entrada,saída,data,características,valor e etc..)
+ As principais diferenças entre os niveis de atendente e gerente de estoque seria a manipulação de informações entre cliente e veículo, por exemplo o atendente lidaria com o orçamento e pesquisa de dados atendidos pelos clientes,e o gerente lidaria com gerenciamento de dados sobre os veículos (entrada,saída,data,características,valor e etc..)
+
  <!-- ressaltar as diferenças entre
         eles na descrição da proposta.
 
@@ -158,7 +159,7 @@ RF00 - Em caso da compra de algum veículo o sistema deve permitir o cadastro do
 
 RF00 - Após marcar as informações da compra do veículo o sistema deve criar um perfil para a revenda do carro e mandalo para o estoque. -->
 
-- **ENTRADA**
+- **Etrada**
   
 RF00 - Sistema de cadastro de clientes: O sistema deve permitir o cadastro de clientes com as seguintes informações: Dados necessários: nome completo, cpf, endereço, número de telefone, e-mail e outras informações relevantes. Usuários: Vendedor/Administrador
 
@@ -182,7 +183,7 @@ RF00 - Confirmação de pedido: um sistema para enviar uma confirmação de pedi
 RF00 - Pós confirmação do pedido: O sistema deverá abrir uma nova janela pedindo a transferência de documento do veículo
 
 
-- **SAÍDA**
+- **Saída**
 
 
 - **Relatórios**
@@ -190,6 +191,8 @@ RF00 - Pós confirmação do pedido: O sistema deverá abrir uma nova janela ped
 RF00 - O sistema deve enviar um email para o dono/gerente da loja que informe a quantia de carros vendidos, qual foi o mais vendido, nome funciónario que vedeu e o nome do cliente que comprou, formas e tipos de pagamento, lucro e prejuízo.
 
 RF00 - O sistema deve fixar no final do relatório os funcionários que tiraram mais feriados, folgas, horas extras e atestados.
+
+RF00 - O sistema deve enviar um relatório geral e um relatório individual de cada funcionário para o gerente, também enviando os relatórios individuaís de cada funcionário para o mesmo.
 
 <!-- Um requisito funcional deve ser estruturado da seguinte forma:
 
