@@ -159,32 +159,31 @@ RF00 - Em caso da compra de algum veículo o sistema deve permitir o cadastro do
 
 RF00 - Após marcar as informações da compra do veículo o sistema deve criar um perfil para a revenda do carro e mandalo para o estoque. -->
 
-- **Etrada**
-  
-RF00 - Sistema de cadastro de clientes: O sistema deve permitir o cadastro de clientes com as seguintes informações: Dados necessários: nome completo, cpf, endereço, número de telefone, e-mail e outras informações relevantes. Usuários: Vendedor/Administrador
-
-RF00 - Gerenciamento de conta do cliente: um sistema para que os administradores possam gerenciar suas contas, atualizando suas informações dos clientes como dados pessoais, dados de pagamento, histórico de pedidos e outras informações.
-
-<!-- **PROCESSO** -->
+**Etrada**
 
 - **Quais os tipos de funcionarios**
+  
+<!-- RF00 - Sistema de cadastro de clientes: O sistema deve permitir o cadastro de clientes com as seguintes informações: Dados necessários: nome completo, cpf, endereço, número de telefone, e-mail e outras informações relevantes. Usuários: Vendedor/Administrador
+
+RF00 - Gerenciamento de conta do cliente: um sistema para que os administradores possam gerenciar suas contas, atualizando suas informações dos clientes como dados pessoais, dados de pagamento, histórico de pedidos e outras informações. -->
+
 
 RF00 - Autenticação dos funcionários: um sistema para autenticar os funcionários diferentes, ao fazer login em sua conta antes de realizar uma venda o funcionário poderá ver os dados dos carros que o mesmo  vendeu, Essas informações serão utilizadas no relatório final do mês.
+
+**Saída**
+
+- **Venda e forma de pagamentos**
 
 RF00 - Venda:
 
 RF00 - pagamentos: o sistema  para processar os pagamentos dos clientes por meio de várias opções, como cartões de crédito, PayPal, dinheiro vivo ou outros métodos de pagamento. Tendo as opções de pagar à vista ou parcelado.
 
 
-- **tela de transferência de documentos**
+- **Tela de transferência de documentos**
 
 RF00 - Confirmação de pedido: o sistema deve abrir uma janela para enviar uma confirmação do pedido do cliente, incluindo informações sobre o produto, preço total e informações de transferências de documentos.
 
-RF00 - Pós confirmação do pedido: O sistema deverá abrir uma nova janela pedindo a transferência de documento do veículo para o cliente
-
-
-- **Saída**
-
+RF00 - Transferência de documentos: Após a confrimação, sistema deverá abrir uma nova janela pedindo os documentos do veículo que será impresso além de ser enviado uma cópia para o email do cliente e do vendedor.
 
 - **Relatórios**
   
