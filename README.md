@@ -50,25 +50,41 @@ RN13 – Notificações de Acompanhamento: O sistema deve enviar notificações 
 
 **Requisitos funcionais:**
 
-*ENTRADA*
+**ENTRADA**
 
-RF01 - Cadastrar veículos: O sistema deve permitir o cadastro de veículos com suas respectivas características (Imagem e demais).
+RF01 - Cadastrar Veículos: Permitir o cadastro de veículos com suas respectivas características, incluindo imagens e detalhes.
+Dados necessários: Informações do veículo (marca, modelo, ano, características), imagens.
+Usuários: Administradores, representantes de vendas.
 
-RF02 - Cadastrar clientes: O sistema deve permitir o cadastro de clientes com informações pessoais e histórico de compras.
+RF02 - Cadastrar Clientes: Permitir o cadastro de clientes com informações pessoais e histórico de compras.
+Dados necessários: Informações do cliente (nome, contato, histórico de compras).
+Usuários: Administradores, representantes de vendas.
 
-*PROCESSO*
-RF01 - Catálogar: O sistema deve exibir uma lista geral com os veículos disponíveis para venda e os que não estão;
+**PROCESSO**
 
-RF02 - Exibir Veículo Específico: O sistema deve exibir as informações do veículo disponível para à venda;
+RF03 - Catalogar Veículos: Exibir uma lista geral com os veículos disponíveis para venda, diferenciando aqueles que já foram vendidos.
+Dados necessários: Dados dos veículos disponíveis, status de venda.
+Usuários: Representantes de vendas, clientes.
 
-RF03 - Criar Orçamentos: O sistema deve permitir que os representantes de vendas criem orçamentos para clientes, incluindo informações sobre as preferências do cliente, o modelo do carro e o orçamento máximo;
+RF04 - Exibir detalhes de Veículo: Exibir informações detalhadas de um veículo específico disponível para venda.
+Dados necessários: Detalhes do veículo selecionado.
+Usuários: Representantes de vendas, clientes.
 
-RF04 - Classificando a Venda: O sistema deve permitir que os representantes classifiquem os orçamentos em diferentes estágios do processo, como "Em análise", "Aguardando decisão do cliente", "Negócio fechado" e "Negócio não concluído";
+RF05 - Criar Orçamentos: Permitir que os representantes de vendas criem orçamentos para clientes com base nas preferências e no orçamento máximo.
+Dados necessários: Preferências do cliente, informações do veículo, orçamento máximo.
+Usuários: Representantes de vendas.
 
-RF05 - Acompanhamento de Vendas: O sistema deve manter um registro atualizado das vendas, permitindo que os representantes acompanhem o processo desde a criação do orçamento até a conclusão da venda;
+RF06 - Classificar o Processo de Venda: Permitir que os representantes classifiquem os orçamentos em diferentes estágios do processo de venda.
+Dados necessários: Status do orçamento.
+Usuários: Representantes de vendas, gerentes.
 
-RF06 - Pagamentos: o sistema para processar os pagamentos dos clientes por meio de várias opções, como cartões de crédito, PayPal, dinheiro vivo ou outros métodos de pagamento. Tendo as opções de pagar à vista ou parcelado;
+RF07 - Acompanhar Vendas: Manter um registro atualizado das vendas, acompanhando o processo desde a criação do orçamento até a conclusão da venda.
+Dados necessários: Dados das vendas realizadas, status dos orçamentos.
+Usuários: Representantes de vendas, gerentes.
 
+RF08 - Processar Pagamentos: Processar os pagamentos dos clientes, oferecendo opções de pagamento como cartões de crédito, PayPal, dinheiro vivo ou outros métodos, incluindo pagamento à vista ou parcelado.
+Dados necessários: Detalhes da transação, opções de pagamento.
+Usuários: Representantes de vendas, clientes.
 <!-- RF00 - Notificações de Acompanhamento: O sistema deve enviar notificações automáticas aos representantes e gerentes para lembrar o acompanhamento e o follow-up dos orçamentos em aberto. -->
 
 <!-- RF00 - Avaliação de Satisfação do Cliente: O sistema deve enviar automaticamente pesquisas de satisfação aos clientes após a conclusão da venda, permitindo-lhes avaliar a experiência de compra. -->
@@ -76,9 +92,17 @@ RF06 - Pagamentos: o sistema para processar os pagamentos dos clientes por meio 
 
 *SAIDA*
 
-RF001: Veículo: Após a venda do veículo o sistema deve atribiuir a lista com vendido.
+R.F.09 - Relatório de Vendas: Gerar relatórios periódicos com informações sobre as vendas realizadas, incluindo carros mais vendidos, média de preços, desempenho dos representantes, entre outras métricas relevantes.
+Dados necessários: Dados de vendas realizadas.
+Usuários: Gerentes, equipe de análise de vendas.
 
-RF002: Veículo Catálogo: Depois da venda e atribuí-lo a lista de vendidos, o sistema deve também adicioná-lo para um histórico de vendas com data e detalhes do orçamento.
+R.F. 10 - Notificações de Acompanhamento: Enviar notificações automáticas aos representantes e gerentes para lembrar o acompanhamento e o follow-up dos orçamentos em aberto, evitando que os clientes sejam negligenciados.
+Dados necessários: Status dos orçamentos.
+Usuários: Representantes de vendas, gerentes.
+
+R.F. 11 - Classificação de Orçamentos: Classificar os orçamentos em diferentes estágios do processo de venda, como "Em análise", "Aguardando decisão do cliente", "Negócio fechado" e "Negócio não concluído", para facilitar o acompanhamento e a gestão.
+Dados necessários: Status dos orçamentos.
+Usuários: Representantes de vendas, gerentes.
 
 <!-- Essas são apenas algumas das funcionalidades que o sistema proposto pode ter. Mais detalhes e telas específicas serão.apresentados na etapa de especificação de requisitos. É importante ressaltar que o sistema deve ser intuitivo e fácil de usar, proporcionando uma experiência agradável tanto para os clientes quanto para os funcionários da revendedora. -->
 
