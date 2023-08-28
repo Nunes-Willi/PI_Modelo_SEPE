@@ -51,21 +51,34 @@ RN13 – Notificações de Acompanhamento: O sistema deve enviar notificações 
 **Requisitos funcionais:**
 
 *ENTRADA*
-RF001 - Cadastro de veículos: O sistema deve permitir o cadastro de veículos com suas respectivas características.
 
-RF002 - Análise de crédito: O sistema deve realizar uma análise de crédito automatizada com base nas informações fornecidas pelo cliente.
+RF01 - Cadastrar veículos: O sistema deve permitir o cadastro de veículos com suas respectivas características (Imagem e demais).
 
-RF003 - Documentação digitalizada: O sistema deve permitir o armazenamento e o acesso digitalizado dos documentos relacionados à venda de veículos.
+RF02 - Cadastrar clientes: O sistema deve permitir o cadastro de clientes com informações pessoais e histórico de compras.
 
-RF004 - Cadastro de clientes: O sistema deve permitir o cadastro de clientes com informações pessoais e histórico de compras.
+*PROCESSO*
+RF01 - Catálogar: O sistema deve exibir uma lista geral com os veículos disponíveis para venda e os que não estão;
 
-RF005 - Agendamento de revendas: O sistema deve permitir o agendamento de revendas de veículos, registrando a data e hora da revenda.
+RF02 - Exibir Veículo Específico: O sistema deve exibir as informações do veículo disponível para à venda;
 
-RF006 - pagamentos: o sistema para processar os pagamentos dos clientes por meio de várias opções, como cartões de crédito, PayPal, dinheiro vivo ou outros métodos de pagamento. Tendo as opções de pagar à vista ou parcelado.
+RF03 - Criar Orçamentos: O sistema deve permitir que os representantes de vendas criem orçamentos para clientes, incluindo informações sobre as preferências do cliente, o modelo do carro e o orçamento máximo;
 
-RF007 - Transferência de documentos: O sistema deverá abrir uma nova janela pedindo a transferência de documento do veículo
+RF04 - Classificando a Venda: O sistema deve permitir que os representantes classifiquem os orçamentos em diferentes estágios do processo, como "Em análise", "Aguardando decisão do cliente", "Negócio fechado" e "Negócio não concluído";
+
+RF05 - Acompanhamento de Vendas: O sistema deve manter um registro atualizado das vendas, permitindo que os representantes acompanhem o processo desde a criação do orçamento até a conclusão da venda;
+
+RF06 - Pagamentos: o sistema para processar os pagamentos dos clientes por meio de várias opções, como cartões de crédito, PayPal, dinheiro vivo ou outros métodos de pagamento. Tendo as opções de pagar à vista ou parcelado;
+
+<!-- RF00 - Notificações de Acompanhamento: O sistema deve enviar notificações automáticas aos representantes e gerentes para lembrar o acompanhamento e o follow-up dos orçamentos em aberto. -->
+
+<!-- RF00 - Avaliação de Satisfação do Cliente: O sistema deve enviar automaticamente pesquisas de satisfação aos clientes após a conclusão da venda, permitindo-lhes avaliar a experiência de compra. -->
+
 
 *SAIDA*
+
+RF001: Veículo: Após a venda do veículo o sistema deve atribiuir a lista com vendido.
+
+RF002: Veículo Catálogo: Depois da venda e atribuí-lo a lista de vendidos, o sistema deve também adicioná-lo para um histórico de vendas com data e detalhes do orçamento.
 
 <!-- Essas são apenas algumas das funcionalidades que o sistema proposto pode ter. Mais detalhes e telas específicas serão.apresentados na etapa de especificação de requisitos. É importante ressaltar que o sistema deve ser intuitivo e fácil de usar, proporcionando uma experiência agradável tanto para os clientes quanto para os funcionários da revendedora. -->
 
