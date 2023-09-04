@@ -117,7 +117,7 @@ Usuários: Representantes de vendas, sistema.
 <!-- RF00 - Avaliação de Satisfação do Cliente: O sistema deve enviar automaticamente pesquisas de satisfação aos clientes após a conclusão da venda, permitindo-lhes avaliar a experiência de compra. -->
 
 
-**SAIDA**
+**SAÍDA**
 
 R.F.09 - Relatório de Vendas: Gerar relatórios periódicos com informações sobre as vendas realizadas, incluindo carros mais vendidos, média de preços, desempenho dos representantes, entre outras métricas relevantes.
 Dados necessários: Dados de vendas realizadas.
