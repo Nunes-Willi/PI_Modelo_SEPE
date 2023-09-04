@@ -93,28 +93,23 @@ Usuários: Representantes de vendas, clientes.
 
 *Subprocessos:*
 
-RF09.1 - Iniciar Processo de Compra:
-Descrição: Iniciar o processo de compra quando um cliente decide comprar um veículo específico.
+RF09.1 - Iniciar Processo de Compra: Iniciar o processo de compra quando um cliente decide comprar um veículo específico.
 Dados necessários: Dados do veículo escolhido, informações do cliente.
 Usuários: Representantes de vendas, clientes.
 
-RF09.2 - Verificação de Disponibilidade:
-Descrição: Verificar a disponibilidade do veículo escolhido e verificar se ainda está disponível para venda.
+RF09.2 - Verificação de Disponibilidade: Verificar a disponibilidade do veículo escolhido e verificar se ainda está disponível para venda.
 Dados necessários: Status do veículo, informações do cliente.
 Usuários: Representantes de vendas, sistema (automático).
 
-RF09.3 - Confirmação de Detalhes:
-Descrição: Confirmar os detalhes da compra, incluindo informações do veículo, preço, opções de pagamento e detalhes do cliente.
+RF09.3 - Confirmação de Detalhes: Confirmar os detalhes da compra, incluindo informações do veículo, preço, opções de pagamento e detalhes do cliente.
 Dados necessários: Dados do veículo, preço, opções de pagamento, informações do cliente.
 Usuários: Representantes de vendas, clientes.
 
-RF09.4 - Notificação ao Cliente:
-Descrição: Enviar uma notificação ao cliente confirmando a compra, incluindo detalhes do veículo, preço e informações de contato.
+RF09.4 - Notificação ao Cliente: Enviar uma notificação ao cliente confirmando a compra, incluindo detalhes do veículo, preço e informações de contato.
 Dados necessários: Detalhes da compra, informações do cliente.
 Usuários: Representantes de vendas, sistema (automático).
 
-RF09.5 - Finalização do Processo de Compra:
-Descrição: Encerrar o processo de compra, garantindo que todos os documentos foram gerados e o pagamento foi processado com sucesso.
+RF09.5 - Finalização do Processo de Compra: Encerrar o processo de compra, garantindo que todos os documentos foram gerados e o pagamento foi processado com sucesso.
 Dados necessários: Status da transação, documentos gerados, confirmação de pagamento.
 Usuários: Representantes de vendas, sistema.
 <!-- RF00 - Notificações de Acompanhamento: O sistema deve enviar notificações automáticas aos representantes e gerentes para lembrar o acompanhamento e o follow-up dos orçamentos em aberto. -->
