@@ -1,9 +1,11 @@
-**Projeto Integrador - Arquivo X**
+**Projeto Integrador - Working House**
 Início do projeto: 07/09/2023.
 
-Alunos: Bruno Dias(), Carlos Mello(), Dominic Krelling(), Murilo Watanabe (https://github.com/MuriloWatanabe),e William Nunes (https://github.com/Nunes-Willi)
+Alunos: Bruno Dias(https://github.com/bcd15), Carlos Mello(https://github.com/carlos47fnaf), Dominic Krelling(https://github.com/dominic-krelling), Murilo Watanabe (https://github.com/MuriloWatanabe),e William Nunes (https://github.com/Nunes-Willi)
 
-Links do projeto: 
+**Links do projeto:** 
+
+**Documentação - Readme:** https://github.com/Nunes-Willi/PI_Modelo_SEPE
 
 **Situação Problema:**
 
@@ -12,7 +14,7 @@ Você é um empreendedor que deseja criar um aplicativo de serviços domésticos
 Em uma grande estado, como Santa Catarina, muitas pessoas têm dificuldade em encontrar profissionais confiáveis para realizar tarefas domésticas, como limpeza, reparos elétricos, encanamento, jardinagem e até mesmo cuidados com animais de estimação. As reclamações mais comuns incluem a falta de transparência na contratação de prestadores de serviços, preocupações com a segurança ao permitir que estranhos entrem em suas casas e dificuldade em encontrar alguém disponível no momento certo.
 
 **Descrição da proposta:**
-O "Arquivo X" é um aplicativo que se concentra em fornecer serviços domésticos confiáveis e convenientes. Nossa proposta inclui:
+O "Working House" é um aplicativo que se concentra em fornecer serviços domésticos confiáveis e convenientes. Nossa proposta inclui:
 
 Seleção rigorosa de prestadores de serviços confiáveis e qualificados.
 Um sistema transparente de avaliação e garantias de satisfação.
@@ -63,6 +65,28 @@ Cumprir todas as regulamentações locais, estaduais e federais relacionadas a s
 
 **Requisitos funcionais:**
 
+Registro de Usuário:
+Os usuários devem poder criar uma conta no aplicativo com informações pessoais, como nome, endereço de e-mail e senha.
+
+Registro de Prestadores de Serviços:
+Os prestadores de serviços devem poder se cadastrar na plataforma, fornecendo informações pessoais, qualificações e experiência profissional.
+
+Login de Usuário e Prestadores de Serviços:
+Deve haver um sistema de login seguro para que os usuários e prestadores de serviços acessem suas contas.
+
+Seleção de Serviços:
+Os usuários devem poder filtrar pelo tipo de serviço doméstico de que precisam a partir de uma lista de opções.
+
+Pesquisa e Visualização de Prestadores de Serviços:
+Os usuários devem poder pesquisar prestadores de serviços com base em critérios como localização, classificação, e tipo de serviço.
+Os perfis dos prestadores de serviços devem estar disponíveis para visualização, incluindo informações de contato, avaliações e preços.
+
+Reservas e Confirmações:
+Os usuários devem poder fazer reservas para os serviços desejados.
+Os prestadores de serviços devem confirmar as reservas e receber notificações relevantes.
+
+Avaliações e Comentários:
+Os usuários devem poder deixar avaliações e comentários sobre os serviços prestados após a conclusão do trabalho.
 **ENTRADA**
 
 
