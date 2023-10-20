@@ -65,38 +65,89 @@ Cumprir todas as regulamentações locais, estaduais e federais relacionadas a s
 
 **Requisitos funcionais:**
 
-Registro de Usuário:
+RF001 - Registro de Usuário:
 Os usuários devem poder criar uma conta no aplicativo com informações pessoais, como nome, endereço de e-mail e senha.
 
-Registro de Prestadores de Serviços:
+RF002 - Registro de Prestadores de Serviços:
 Os prestadores de serviços devem poder se cadastrar na plataforma, fornecendo informações pessoais, qualificações e experiência profissional.
 
-Login de Usuário e Prestadores de Serviços:
+RF003 - Login de Usuário e Prestadores de Serviços:
 Deve haver um sistema de login seguro para que os usuários e prestadores de serviços acessem suas contas.
 
-Seleção de Serviços:
+RF004 - Seleção de Serviços:
 Os usuários devem poder filtrar pelo tipo de serviço doméstico de que precisam a partir de uma lista de opções.
 
-Pesquisa e Visualização de Prestadores de Serviços:
+RF005 - Pesquisa e Visualização de Prestadores de Serviços:
 Os usuários devem poder pesquisar prestadores de serviços com base em critérios como localização, classificação, e tipo de serviço.
 Os perfis dos prestadores de serviços devem estar disponíveis para visualização, incluindo informações de contato, avaliações e preços.
 
-Reservas e Confirmações:
+RF006 - Reservas e Confirmações:
 Os usuários devem poder fazer reservas para os serviços desejados.
 Os prestadores de serviços devem confirmar as reservas e receber notificações relevantes.
+**Requisitos não funcionais:**
 
-Avaliações e Comentários:
-Os usuários devem poder deixar avaliações e comentários sobre os serviços prestados após a conclusão do trabalho.
+RNF001 - Desempenho:
+O tempo de resposta do sistema para consultas de usuários e prestadores de serviços não deve exceder 3 segundos, mesmo durante os horários de pico de uso.
+Segurança:
+
+RNF002 - Todas as transações e dados confidenciais devem ser criptografados usando um protocolo seguro.
+Implementar medidas de segurança avançadas para proteger os dados pessoais dos usuários e prestadores de serviços contra acesso não autorizado ou vazamento.
+Escalabilidade:
+
+RNF003 - O sistema deve ser projetado para acomodar um grande número de usuários e prestadores de serviços simultaneamente, sem comprometer o desempenho ou a segurança.
+Disponibilidade:
+
+RNF004 - O aplicativo deve estar disponível 24 horas por dia, 7 dias por semana, com um tempo de inatividade planejado mínimo para manutenção.
+Compatibilidade:
+
+RNF005 - O aplicativo deve ser compatível com uma ampla gama de dispositivos, incluindo smartphones, tablets e computadores, independentemente do sistema operacional.
+Usabilidade:
+
+RNF006 - A interface do usuário deve ser intuitiva e fácil de navegar, mesmo para usuários novatos, com recursos de acessibilidade para pessoas com deficiências.
+Confiabilidade:
+
+RNF007 - O sistema deve ser altamente confiável, minimizando falhas inesperadas e erros que possam afetar negativamente a experiência do usuário.
+Regulamentações de Privacidade:
+
+RNF008 - Seguir as normas de privacidade de dados estabelecidas pelas leis locais e internacionais, como GDPR, para proteger os dados pessoais dos usuários.
+Manutenibilidade:
+
+RNF009 - O código-fonte e a infraestrutura do aplicativo devem ser bem documentados e organizados, facilitando a manutenção contínua e futuras atualizações.
+Interoperabilidade:
+
+RNF010 - O sistema deve ser capaz de integrar-se facilmente com outros aplicativos ou serviços relevantes, permitindo uma experiência de usuário mais ampla e aprimorada.
+
 **ENTRADA**
 
+Cadastro de usuário: os usuários devem inserir informações pessoais, como nome, endereço de e-mail e senha, para criar uma conta no aplicativo.
+
+Cadastro de prestadores de serviços: os prestadores de serviços devem fornecer informações pessoais, qualificações e experiência profissional para se registrar na plataforma.
+
+Pesquisa de prestadores de serviços: os clientes podem pesquisar prestadores de serviços com base em critérios como localização, tipo de serviço e classificação.
+
+Fornecer detalhes de contato: os prestadores de serviços devem fornecer informações de contato atualizadas, incluindo número de telefone e endereço, para facilitar a comunicação com os clientes.
+
+Especificar habilidades: os prestadores de serviços devem poder especificar as habilidades em que são especializados para que os clientes possam selecionar adequadamente.
 
 **PROCESSO**
 
+Confirmações de reserva: os prestadores de serviços devem confirmar as reservas e receber notificações relevantes sobre os serviços agendados.
 
-**SAÍDA**
+Verificação de antecedentes: todos os prestadores de serviços devem passar por verificações rigorosas de antecedentes criminais e referências antes de serem autorizados a oferecer serviços pelo aplicativo.
 
+Exibição transparente de taxas: todas as taxas de serviço e preços devem ser exibidas claramente antes da confirmação da reserva.
 
-**Requisitos não funcionais:**
+Notificações em tempo real: os clientes e prestadores de serviços devem receber notificações em tempo real sobre o status das reservas, confirmações e outras atualizações relevantes.
+
+Integração de pagamento: deve haver um sistema de pagamento integrado que permita aos usuários pagar pelos serviços diretamente através do aplicativo.
+
+**FINAL**
+
+Suporte ao cliente: fornecer suporte ágil e eficiente para resolver problemas e responder a perguntas dos usuários.
+
+Práticas ambientais: promover práticas ecológicas e sustentáveis entre os prestadores de serviços e recompensar aqueles que adotam medidas ambientalmente responsáveis.
+
+Sistema de reembolso automático: em caso de insatisfação do cliente, o sistema deve ser capaz de processar reembolsos automaticamente de acordo com as políticas estabelecidas.
 
 
 **Conclusão:**
